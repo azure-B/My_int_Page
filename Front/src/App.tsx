@@ -1,16 +1,12 @@
 import './App.css'
-import Hello from './component/Hello'
+import Counter_Main from './component/Counter/Main/Counter_Main'
 
 function App() {
 
   return (
     <>
-      <Hello example='안녕'>
-      </Hello>
-      <Hello example='22'>
-      </Hello>
-      <Hello example='33'>
-      </Hello>
+      <Counter_Main>
+      </Counter_Main>
     </>
   )
 

@@ -1,3 +1,4 @@
 export type use_ts = {
-  example : string;
+  counter : number;
+  setCounter?: React.Dispatch<React.SetStateAction<number>>;
 };
