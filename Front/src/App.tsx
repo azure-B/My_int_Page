@@ -5,7 +5,11 @@ function App() {
 
   return (
     <>
-      <Hello>
+      <Hello example='안녕'>
+      </Hello>
+      <Hello example='22'>
+      </Hello>
+      <Hello example='33'>
       </Hello>
     </>
   )
